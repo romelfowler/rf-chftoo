@@ -1,0 +1,48 @@
+#nav-above,
+#nav-below {
+	margin: 0px 0px 10px 0px;
+}
+.nav-previous {
+}
+.nav-previous a {
+	color: #FFF;
+	background: $chftoo_blue;
+	padding: 5px 10px;
+	float: left;
+}
+.nav-previous a .meta-icon {
+	float: left;
+	margin-right: 5px;
+	padding: 1px 6px 2px 0;
+}
+
+.nav-next {
+}
+.nav-next a {
+	color: #FFF;
+	background: $chftoo_blue;
+	padding: 5px 10px;
+	float: right;
+}
+.nav-next a .meta-icon {
+	float: right;
+	margin-left: 5px;
+	padding: 1px 0 2px 6px;
+}
+
+.nav-previous a .meta-icon,
+.nav-next a .meta-icon {
+	display: table;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	background: #333;
+}
+.nav-previous a i,
+.nav-next a i {
+	top: 1px;
+    position: relative;
+	vertical-align: middle;
+	display: table-cell;
+	line-height: 1;
+}

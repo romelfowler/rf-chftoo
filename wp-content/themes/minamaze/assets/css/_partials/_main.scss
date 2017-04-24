@@ -1,0 +1,251 @@
+
+/* ---------------------------------------------------------------------------------------
+	07. MAIN CONTENT
+--------------------------------------------------------------------------------------- */
+
+/* =Buttons
+----------------------------------------------------------------------------- */
+.themebutton,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	color: #FFF;
+	text-align: center;
+	border: none;
+	background: $chftoo_blue;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+a.themebutton {
+	color: #FFF;
+}
+.themebutton:hover,
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: #333;
+}
+
+/* =Breadcrumbs
+----------------------------------------------------------------------------- */
+#breadcrumbs {
+	font-size: 10px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+}
+#breadcrumbs .delimiter {
+	padding: 0px 10px;
+	color: $chftoo_blue;
+}
+#breadcrumbs a:hover {
+	color: $chftoo_blue;
+}
+#breadcrumbs-core {
+	display: inline-block;
+}
+
+/* =Pre-Designed Homepage (code also in style-responsive.css)
+----------------------------------------------------------------------------- */
+#section-home {
+	text-align: center;
+	padding: 0 10px;
+}
+#section-home-inner {
+	max-width: 960px;
+	margin: 20px auto 0;
+}
+#section-home .section {
+	display: block;
+	background:$whitesmoke;
+	padding: 10px;
+	border: 1px solid #E0E0E0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#section-home .entry-header {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#section-home .entry-header span {
+	background: #333;
+	display: block;
+	position: relative;
+	border-radius: 500px;
+	width: 90px;
+	height: 90px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+#section-home .entry-header i {
+	font-size: 50px;
+	color: white;
+	position: relative;
+	top: 20px;
+}
+
+#section-home img {
+	margin: 0 auto;
+	display: block;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.entry-content p {
+	font-size: 15px;
+    margin-bottom: 20px;
+}
+#section-home .entry-content {
+	padding-top: 20px;
+}
+#section-home h3 {
+	font-size: 18px;
+	font-weight: 600
+}
+#section-home .more-link {
+	padding: 5px 10px;
+}
+#section-home .more-link:after {
+	font-family: FontAwesome;
+	content: '\F101';
+	padding-left: 5px
+}
+
+
+/* =Call to Action / Attention Grabber
+----------------------------------------------------------------------------- */
+#introaction,
+#outroaction {
+	padding: 10px;
+}
+#introaction-core,
+#outroaction-core {
+	padding: 20px 0;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: $whitesmoke;
+}
+.action-text.three_fourth,
+.action-button.one_fourth,
+.action-text h3,
+.action-text p,
+.attention_text.three_fourth,
+.attention_button.one_fourth,
+.attention_text h3,
+.attention_text p {
+	margin-bottom: 0px;
+}
+.action-text h3,
+.attention_text h3 {
+	margin-top: 0px;
+}
+.action-text h3,
+.action-text p,
+.attention_text h3,
+.attention_text p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.action-button h4,
+.attention_button h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	margin: 0px 10px;
+}
+
+
+/* =Floating Content
+----------------------------------------------------------------------------- */
+#header-core:before,
+#header-core:after,
+#header-links-inner .menu:before,
+#header-links-inner .menu:after,
+#intro-core:before,
+#intro-core:after,
+#introaction-core:before,
+#introaction-core:after,
+#outroaction-core:before,
+#outroaction-core:after,
+#main-core:before,
+#main-core:after,
+#content-core:before,
+#content-core:after,
+#article:before,
+#article:after,
+#nav-above:before,
+#nav-above:after,
+#nav-below:before,
+#nav-below:after,
+#sharepost:before,
+#sharepost:after,
+#author-image:before,
+#author-image:after,
+#author-bio:before,
+#author-bio:after,
+#sub-footer:before,
+#sub-footer:after,
+#footer-core:before,
+#footer-core:after,
+.entry-meta:before,
+.entry-meta:after,
+.attention:before,
+.attention:after,
+ul.pricing-table:before,
+ul.pricing-table:after,
+.popular-posts:before,
+.popular-posts:after,
+.recent-comments:before,
+.recent-comments:after,
+.recent-posts:before,
+.recent-posts:after,
+.searchform:before,
+.searchform:after {
+    content:"";
+    display:table;
+}
+#header-core:after,
+#header-links-inner .menu:after,
+#intro-core:after,
+#introaction-core:after,
+#outroaction-core:after,
+#main-core:after,
+#content-core:after,
+#article:after,
+#nav-above:after,
+#nav-below:after,
+#sharepost:after,
+#author-image:after,
+#author-bio:after,
+#sub-footer:after,
+#footer-core:after,
+.entry-meta:after,
+.attention:after,
+ul.pricing-table:after,
+.popular-posts:before,
+.popular-posts:after,
+.recent-comments:after,
+.recent-posts:after,
+.searchform:after {
+    clear:both;
+}

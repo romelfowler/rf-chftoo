@@ -1,0 +1,26 @@
+.entry-content img,
+.entry-content iframe {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+embed,
+iframe,
+object,
+.wp-caption {
+	max-width: 100%;
+}
+iframe.twitter-tweet {
+	margin: 0 !important;
+	width: 100%;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size: 12px;
+	font-style: italic;
+}
+#content .gallery a img {
+	border: none;
+}

@@ -1,0 +1,362 @@
+
+/* Custom Header */
+.custom-header img {
+	display: block;
+}
+
+/* =Main
+----------------------------------------------------------------------------- */
+.site-description {
+	color: $chftoo_blue;
+	font-size: 13px;
+	line-height: 13px;
+}
+#logo {
+	float: left;
+	text-align:center;
+	margin: 10px 0 0;
+}
+#logo a {
+	display: inline-block;
+}
+#logo img {
+	width: auto;
+	max-height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+#logo h1 {
+	color: #4ac4da;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+
+/* =Menu
+----------------------------------------------------------------------------- */
+
+/* Site-header */
+#site-header {
+	line-height: 1.5;
+}
+
+/* Pre-header */
+#pre-header {
+	background: #1C1C1C;
+	height:50px;
+}
+#pre-header li {
+	float: left;
+}
+#pre-header .header-links > ul > li > a {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#pre-header .header-links .menu-hover > a,
+#pre-header .header-links > ul > li > a:hover {
+	color: white;
+}
+#pre-header .header-links li a,
+#pre-header-social li,
+#pre-header-social li a,
+#pre-header-search input {
+	color: #CCC;
+	font-size: 12px;
+	display: block;
+}
+#pre-header .header-links li a,
+#pre-header-social li.message {
+	padding: 9px 15px 7px;
+}
+#pre-header-social li,
+#pre-header-social li a {
+	border: 0px;
+}
+#pre-header .header-links .sub-menu {
+	background: #1C1C1C;
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #303030;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+}
+#pre-header .header-links .sub-menu li {
+	border-bottom: 1px solid #303030;
+}
+#pre-header .header-links .sub-menu a {
+	padding: 6px 20px 6px 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#pre-header .header-links .sub-menu a:hover {
+	color: white;
+}
+#pre-header-core {
+	display: table;
+	width: 100%;
+}
+#pre-header-links-inner,
+#pre-header-social,
+#pre-header-search {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Pre-header - Search */
+#pre-header-search {
+	width: 1%;
+	padding: 5px 5px 5px 20px;
+}
+#pre-header-search .search {
+	max-width: 120px;
+	background: #3A3A3A;
+	border: 1px solid #444;
+	padding: 3px 10px;
+}
+#pre-header-search .searchform {
+	float: right;
+}
+#pre-header-search .searchsubmit {
+	display: none;
+}
+
+/* Search input placeholder text color */
+#pre-header-search ::-webkit-input-placeholder { color: #888; }
+#pre-header-search :-moz-placeholder { color: #888; }
+#pre-header-search ::-moz-placeholder { color: #888; }
+#pre-header-search :-ms-input-placeholder { color: #888; }
+
+/* Pre-header - Social Media */
+#pre-header-social ul {
+	display: table;
+	float: right;
+}
+#pre-header-social li {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+#pre-header-social li a {
+display: table;
+text-align: center;
+color: #FFF;
+	width: 24px;
+	height: 24px;
+	margin: 3px;
+	background: #4D4D4D;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	-o-border-radius: 500px;
+	border-radius: 500px;
+}
+
+#pre-header-social li.facebook a:hover {
+	background: #3b5997;
+}
+#pre-header-social li.twitter a:hover {
+	background: #a5dee8;
+}
+#pre-header-social li.google a:hover {
+	background: #db4a39;
+}
+#pre-header-social li.linkedin a:hover {
+	background: #56a1c4;
+}
+#pre-header-social li.flickr a:hover {
+	background: #c5c5c5;
+}
+#pre-header-social li.youtube a:hover {
+	background: #de1f26;
+}
+#pre-header-social li.rss a:hover {
+	background: #fea81d;
+}
+#pre-header-social li i {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	top: 1px;
+}
+
+/* Header */
+#header {
+	padding: 0;
+}
+#header-links {
+	float: right;
+}
+#header-links-inner {
+	display: table;
+	margin: 0 auto;
+}
+#header .header-links li {
+	float: left;
+	font-size: 15px;
+}
+#header .header-links > ul > li a{
+	color: #777;
+	padding: 25px 20px;
+}
+#header .header-links > ul > li.menu-parent > a:after {
+	position: relative;
+	content: "\f107";
+	font-family: fontawesome;
+	padding-left: 6px;
+}
+#header .header-links li a {
+	display: block;
+	padding: 8px 14px;
+	margin: 0px;
+}
+#header .header-links .sub-menu {
+	display: none;
+	float: left;
+	position: absolute;
+	z-index: 9999;
+	border: 1px solid #303030;
+	background: #1C1C1C;
+}
+#header .header-links .sub-menu a {
+	color: white;
+	font-size: 12px;
+	border-bottom: 1px solid #303030;
+	line-height: 32px;
+	margin: 0;
+	padding: 0 20px 0 10px;
+}
+#header .header-links .sub-menu li:last-child > a {
+	border: 0;
+}
+#header .header-links .sub-menu a:hover,
+#header .header-links .sub-menu .current-menu-item a {
+}
+
+#pre-header .sub-menu li,
+#header .sub-menu li {
+	float: none;
+	position: relative;
+}
+#header .sub-menu li {
+	padding: 2px 10px;
+}
+#header .sub-menu li:hover {
+	padding-left: 10px;
+}
+
+#header .menu > li > a {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#header .menu > li.menu-hover > a,
+#header .menu > li.current_page_item > a,
+#header .menu > li.current-menu-ancestor > a,
+#header .menu > li > a:hover {
+	color: $chftoo_blue;
+}
+.main-navigation:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.main-navigation .sub-menu a {
+	white-space: nowrap;
+}
+.main-navigation .sub-menu .sub-menu {
+	position: absolute;
+	top: -1px;
+	left: 100%;
+}
+.main-navigation ul ul :hover > a {
+}
+#pre-header .main-navigation ul li:hover > ul,
+#header .main-navigation ul li:hover > ul {
+	display: block;
+}
+
+/* Header - Style 2 */
+.slider-full.header-style2 #header-core {
+	max-width: 100%;
+}
+.header-style2 #logo {
+	float: none;
+	margin: 25px 0;
+}
+.header-style2 #logo img {
+	max-height: 90px;
+}
+.header-style2 #header-links {
+	width: 100%;
+	border-top: 1px solid $whitesmoke;
+	border-bottom: 1px solid $whitesmoke;
+}
+.header-style2 #header .header-links > ul > li > a {
+	padding: 15px 20px;
+}
+
+/* Moving sub-menu items right */
+#pre-header .header-links .sub-menu a,
+#pre-header .header-links .sub-menu a span,
+#pre-header .header-links .sub-menu .menu-parent > a:before,
+#header .header-links .sub-menu a,
+#header .header-links .sub-menu a span,
+#header #header-core .sub-menu .menu-parent > a:before {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#pre-header .header-links .sub-menu a:hover {
+	padding-right: 10px;
+}
+#header .header-links .sub-menu a:hover {
+	padding-right: 10px;
+}
+#pre-header .header-links .sub-menu a:hover span,
+#header .header-links .sub-menu a:hover span {
+	margin-left: 10px;
+}
+
+/* Arrows of menu parents (uses FontAwesome css) */
+#pre-header .sub-menu .menu-parent > a:before {
+	font-family: FontAwesome;
+	font-size: 1em;
+	text-align: right;
+	content: "\f105";
+	position: relative;
+	left: 10px;
+	display: inline-block;
+	float: right
+}
+#pre-header .sub-menu .menu-parent > a:hover:before {
+	left: 0px;
+}
+#header .sub-menu .menu-parent > a:before {
+	font-family: FontAwesome;
+	font-size: 1.1em;
+	text-align: right;
+	content: "\f105";
+	position: relative;
+	left: 20px;
+	display: inline-block;
+	float: right;
+}
+#header .sub-menu .menu-parent > a:hover:before {
+	left: 10px;
+}

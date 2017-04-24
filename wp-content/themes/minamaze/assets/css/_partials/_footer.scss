@@ -1,0 +1,83 @@
+
+
+/* ---------------------------------------------------------------------------------------
+	08. FOOTER
+--------------------------------------------------------------------------------------- */
+#footer {
+	background: #333;
+	border-top: 6px solid $chftoo_blue;
+	border-bottom: 1px solid #111;
+	padding: 15px 10px;
+}
+#footer-core h3 {
+	color: $whitesmoke;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+	margin: 10px 0px 15px;
+	border-bottom: 1px solid #222;
+	-webkit-box-shadow: 0 1px 0 0 #444;
+	-moz-box-shadow: 0 1px 0 0 #444;
+	-ms-box-shadow: 0 1px 0 0 #444;
+	-o-box-shadow: 0 1px 0 0 #444;
+	box-shadow: 0 1px 0 0 #444;
+}
+#footer-core h3 span {
+}
+#footer-core,
+#footer-core p,
+#footer-core a:hover {
+	color: #AAA;
+}
+#footer-core a {
+	color: $chftoo_blue;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+}
+/* Sub Footer */
+#sub-footer {
+	background: #222;
+	border-top: 1px solid #444;
+	padding: 15px 0px;
+}
+#sub-footer-core {
+	padding: 0px 10px;
+}
+#sub-footer-core,
+#sub-footer-core a {
+	font-size: 11px;
+}
+#sub-footer-core {
+	color: #AAA;
+	text-align: center;
+}
+#sub-footer-core a {
+	color: $whitesmoke;
+}
+#sub-footer-core a:hover {
+	color: $chftoo_blue
+}
+
+#footer-menu {
+	margin-bottom: 10px;
+}
+#footer-menu a {
+	padding: 0 8px;
+}
+#footer-menu ul {
+	margin: 0px;
+}
+#footer-menu li {
+	display: inline-block;
+}
+#footer-menu li:after {
+	content: "|";
+}
+#footer-menu li:last-child:after {
+	content: none;
+}
+
+.copyright {
+}

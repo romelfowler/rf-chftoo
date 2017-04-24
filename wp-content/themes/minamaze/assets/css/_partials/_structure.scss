@@ -1,0 +1,51 @@
+/*box*/
+.su-box p {
+	color: black;
+	font-size: 20px;
+}
+/*rows*/
+.su-row {
+	border: 1px solid #b5b5b5;
+	padding: 10px;
+}
+.su-row.dashed {
+	border: 1px dashed #b5b5b5;
+	padding: 10px;
+}
+#pre-header-core,
+#header-core,
+#header-links-inner,
+#content-core,
+#footer-core,
+#sub-footer-core,
+#notification-core,
+#introaction-core,
+#outroaction-core {
+	display: block;
+	max-width:960px;
+	margin: 0 auto;
+}
+#content,
+.main-navigation,
+.site-title,
+.site-description {
+    margin: 0 auto;
+}
+#content {
+	clear: both;
+	margin: 0;
+	padding: 20px 10px;
+}
+
+/* Boxed layout */
+body.custom-background #body-core {
+	max-width: 990px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 5px 2px #CCC;
+	-moz-box-shadow: 0px 0px 5px 2px #CCC;
+	-ms-box-shadow: 0px 0px 5px 2px #CCC;
+	-o-box-shadow: 0px 0px 5px 2px #CCC;
+	box-shadow: 0px 0px 5px 2px #CCC
+}

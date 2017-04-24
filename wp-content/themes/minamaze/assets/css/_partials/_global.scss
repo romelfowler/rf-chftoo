@@ -1,0 +1,250 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $input_color;
+	font-family: $font_family;
+	font-size: 12px;
+	line-height: 1.7;
+	word-wrap: break-word;
+}
+body,
+#body-core {
+	background: $body_background;
+	min-width: 320px;
+}
+
+/* Responsive screen width */
+body.layout-fixed,
+body.layout-fixed #body-core,
+body.layout-fixed #site-header,
+body.layout-fixed #notification {
+	min-width: 960px;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	color: $header_font_color;
+	clear: both;
+	margin: 0 0 0.8em;
+	font-family: $font_family;
+	line-height: 1.5;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 34px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 26px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 22px;
+}
+hr {
+	background-color: #E6E6E6;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+/* Text elements */
+p {
+	font-size: 20px;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+}
+ul, ol {
+	margin: 0 0 20px 20px;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+b, strong {
+	font-weight: bold;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+blockquote {
+	font-style: italic;
+	margin: 0 1.5em;
+}
+pre {
+	line-height: 25px;
+	padding: 0px 20px;
+	margin-bottom:10px;
+	border: 1px solid #ddd;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top, #f2f2f2 50%, #f9f9f9 50%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#f2f2f2), color-stop(50%,#f9f9f9));
+	background: -webkit-linear-gradient(top, #f2f2f2 50%,#f9f9f9 50%);
+	background: -o-linear-gradient(top, #f2f2f2 50%,#f9f9f9 50%);
+	background: -ms-linear-gradient(top, #f2f2f2 50%,#f9f9f9 50%);
+	background: linear-gradient(to bottom, #f2f2f2 50%,#f9f9f9 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f9f9f9',GradientType=0 );
+	background-size: 50px 50px;
+}
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+button,
+input {
+	line-height: normal;
+	*overflow: visible;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+	padding: 6px 15px;
+}
+input.searchsubmit {
+	padding: 6px 15px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0;
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+input[type="password"]  {
+	padding: 4px 5px;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=tel],
+select,
+textarea {
+	background:$whitesmoke;
+	border: 1px solid #E0E0E0;
+	padding: 5px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+select:focus,
+textarea:focus {
+	background:$whitesmoke;
+}
+textarea {
+	overflow: auto;
+	vertical-align: top;
+	width: 100%;
+}
+
+/* Tables */
+table {
+	text-align: center;
+	margin: 0 0 25px;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-collapse:collapse;
+}
+caption {
+	font-size:  0.875rem;
+	font-style: italic;
+	color:      #888;
+}
+th,
+td {
+	padding:     4px 2%;
+	border:      1px solid #ddd;
+	border-left: none;
+}
+th {
+	font-size:   0.9em;
+	font-weight: bold;
+}
+td {
+	border-top: none;
+}
+#footer table,
+#footer th,
+#footer td {
+	border-color: #444;
+}
+
+/* Links */
+a {
+	cursor: pointer;
+	text-decoration: none;
+	outline: 0 none;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+a,
+a:visited {
+	font-size: 20px;
+	color: $chftoo_blue;
+	text-decoration: none;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 20px auto;
+}

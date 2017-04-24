@@ -1,0 +1,37 @@
+.pag {
+	text-align: right;
+	margin: 0;
+	list-style: none;
+}
+.pag li {
+	font-size: smaller;
+	display: inline-block;
+	margin-right: 2px;
+}
+.pag li a,
+.pag li span {
+	color: inherit;
+	padding: 1px 6px;
+	border: 1px solid $whitesmoke;
+	background:$whitesmoke;
+	display: block;
+}
+.pag li a:hover {
+	color: $chftoo_blue;
+	border-color: $chftoo_blue;
+}
+.pag li.current span {
+	color: #fff;
+	background: $chftoo_blue;
+	border-color: $chftoo_blue;
+}
+li.pag-first {
+	display: none;
+}
+li.pag-last {
+	display: none;
+}
+li.pag-previous {
+}
+li.pag-next {
+}
